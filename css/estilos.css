@@ -20,6 +20,14 @@
   right: 20px;
   z-index: 100;
 }
+
+.delete-br{
+  display: none;
+}
+
+.openclose{
+  display: none;
+}
 /*----------------INDEX-----------------*/
 
 .logo{
@@ -50,7 +58,7 @@ nav ul a:hover{
     color: #3D1E4D;
     border-bottom: 4px #000 solid;
 }
-.banner { 
+.banner {
   /*border: 2px red solid;*/
     width: 100%;
     position: relative;
@@ -328,26 +336,26 @@ footer p{
  margin-top:15px;
 }
 .contact-form .textarea{
- min-height:220px; 
+ min-height:220px;
  resize:none;
 }
 .form-control{
  box-shadow:none;
-border-color:#eee; 
+border-color:#eee;
 height:49px;
 }
-.form-control:focus{ 
-  box-shadow:none; 
+.form-control:focus{
+  box-shadow:none;
   border-color:#000;
 }
-.form-control-feedback{ 
+.form-control-feedback{
   line-height:50px;
 }
-.main-btn{ 
-  background:#000; 
-  border-color:#000; 
+.main-btn{
+  background:#000;
+  border-color:#000;
   color:#fff;}
-.main-btn:hover{ 
+.main-btn:hover{
   background:#fff;
   color:#000;
 }
